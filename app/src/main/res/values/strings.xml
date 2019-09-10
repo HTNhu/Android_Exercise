@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android_Exercise</string>
+    <string-array name="students_array">
+        <item>Tung Nui</item>
+        <item>Tu Le</item>
+        <item>Kiet Le</item>
+        <item>Nhu Tran</item>
+        <item>Canh Ly</item>
+        <item>Tan Pham</item>
+        <item>Duy Dubai</item>
+        <item>Duy Trinh</item>
+        <item>Hieu Tran</item>
+    </string-array>
+</resources>
