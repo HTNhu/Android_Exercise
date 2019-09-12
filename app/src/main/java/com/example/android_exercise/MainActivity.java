@@ -38,17 +38,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, DialogActivity.class));
             }
         });
-//        btnBai4.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(MainActivity.this, Bai04Activity.class));
-//            }
-//        });
-//        btnBai5.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(MainActivity.this, Bai5Activity.class));
-//            }
-//        });
+        btnBai4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MenuActivity.class));
+            }
+        });
+        btnBai5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, WebviewActivity.class));
+            }
+        });
     }
 }

@@ -1,0 +1,29 @@
+<menu xmlns:android ="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mn"
+            android:title="Xem danh sach">
+            <menu>
+                <item
+                    android:id="@+id/mnsv"
+                    android:title="Sinh vien"></item>
+                <item
+                    android:id="@+id/mnlh"
+                    android:title="Lop hoc"></item>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/mnthemds"
+            android:title="Them sinh vien"></item>
+        <item
+            android:id="@+id/mnsuads"
+            android:title="Sua sinh vien"></item>
+        <item
+            android:id="@+id/mnxoads"
+            android:title="Xoa sinh vien"></item>
+        <item
+            android:id="@+id/mninds"
+            android:title="In sinh vien"></item>
+    </group>
+</menu>
