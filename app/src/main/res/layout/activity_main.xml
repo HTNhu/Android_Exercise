@@ -41,7 +41,12 @@
             android:layout_height="wrap_content"
             android:text="Webview"
            />
-
+        <Button
+            android:id="@+id/btnBai6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiple Language"
+            />
 
 
 </LinearLayout>

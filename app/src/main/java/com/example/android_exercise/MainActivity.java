@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         Button btnBai3 = findViewById(R.id.btnBai3);
         Button btnBai4 = findViewById(R.id.btnBai4);
         Button btnBai5 = findViewById(R.id.btnBai5);
+        Button btnBai6 = findViewById(R.id.btnBai6);
+
+
         btnBai1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,6 +51,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, WebviewActivity.class));
+            }
+        });
+        btnBai6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, GlobalLanguageActivity.class));
             }
         });
     }
