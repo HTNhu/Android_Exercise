@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         Button btnBai4 = findViewById(R.id.btnBai4);
         Button btnBai5 = findViewById(R.id.btnBai5);
         Button btnBai6 = findViewById(R.id.btnBai6);
-
-
+        Button btnBai7 = findViewById(R.id.btnBai7);
+        Button btnBai8 = findViewById(R.id.btnBai8);
         btnBai1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,6 +57,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, GlobalLanguageActivity.class));
+            }
+        });
+        btnBai7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, UploadActivity.class));
+            }
+        });
+        btnBai8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, SQLite.class));
             }
         });
     }

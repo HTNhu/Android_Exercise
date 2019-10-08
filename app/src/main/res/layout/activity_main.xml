@@ -47,6 +47,17 @@
             android:layout_height="wrap_content"
             android:text="Multiple Language"
             />
-
+        <Button
+            android:id="@+id/btnBai7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            />
+        <Button
+            android:id="@+id/btnBai8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SQLite"
+            />
 
 </LinearLayout>

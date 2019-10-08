@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GlobalLanguageActivity"></activity>
+        <activity android:name=".SQLite"></activity>
+        <activity android:name=".UploadActivity"></activity> <!-- <activity android:name=".GlobalLanguageActivity" /> -->
         <activity android:name=".WebviewActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".DialogActivity" />

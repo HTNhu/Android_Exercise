@@ -85,6 +85,5 @@ public class GlobalLanguageActivity extends AppCompatActivity {
         SharedPreferences preferences = getSharedPreferences("Setting", GlobalLanguageActivity.MODE_PRIVATE);
         String language = preferences.getString("My_lang",null);
         setLocale(language);
-
     }
 }

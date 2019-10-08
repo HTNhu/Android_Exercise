@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/edfilename"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập tên file"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+
+</LinearLayout>
+
+    <EditText
+        android:id="@+id/ed_content"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Nhập nội dung"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="57dp" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập mới"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+        <Button
+            android:id="@+id/btnOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mở"
+            tools:layout_editor_absoluteX="247dp"
+            tools:layout_editor_absoluteY="325dp" />
+    </LinearLayout>
+</LinearLayout>
