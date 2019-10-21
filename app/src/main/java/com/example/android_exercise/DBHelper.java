@@ -27,7 +27,7 @@ public class DBHelper extends SQLiteOpenHelper {
 //    }
 
     DBHelper(Context context){
-        super(context, "book_list",null,1);
+        super(context,  "book_list",null,1);
     }
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
